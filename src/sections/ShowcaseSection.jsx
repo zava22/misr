@@ -49,16 +49,14 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="Misr Transport Ilovasi" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                MisrRide – Qadimiy Misr yo‘llarida zamonaviy transport echimi
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                Qadimda Misrda aravalar va Nil daryosidagi kemalar asosiy transport vositasi bo‘lgan. Bugun esa, React Native va TailwindCSS asosidagi ushbu ilova zamonaviy shaharlarda tez va ishonchli harakatlanish imkonini beradi.
               </p>
             </div>
           </div>
@@ -68,20 +66,21 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Misr Kutubxonasi Platformasi"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Misr Elektron Kutubxonasi – Aleksandriya kutubxonasining zamonaviy shakli</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt="Misr Startup Katalogi" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Yosh Fir’avnlar: Misr Startuplarining Raqamli Ko‘rgazmasi</h2>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
